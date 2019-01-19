@@ -15,22 +15,34 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
+    <ClInclude Include="AnimationCreator.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BGCreator.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
     <ClInclude Include="Shape.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="ShapeCreator.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="BGCreator.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="AnimationCreator.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationCreator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapeCreator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BGCreator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Shape.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
